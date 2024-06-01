@@ -1,4 +1,4 @@
-// Primitive
+// Value (Primitive)
 
 // 7 types : String, Number, Boolean, null, undefined, Sysmbol, BigInt
 
@@ -35,3 +35,23 @@ const myFunction = function(){
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
  // Stack (Primitive), Heap (Non-Primitive)
+
+ let myYouTubename = "Atulrajdotcom"
+
+ let anotherName = myYouTubename
+ anotherName = "Xero"
+
+ console.log(anotherName);
+ console.log(myYouTubename);
+
+ let userOne = {
+    name: "Atul",
+    email: "user@abc.com"
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "atul@mail.com" 
+
+ console.log(userOne);
+ console.log(userTwo);
