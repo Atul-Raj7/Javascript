@@ -44,6 +44,8 @@ const myFunction = function(){
  console.log(anotherName);
  console.log(myYouTubename);
 
+// object is non-primitive(Heap). Which means when an object is called it goes to heap which returns the reference instead of copy.
+
  let userOne = {
     name: "Atul",
     email: "user@abc.com"
