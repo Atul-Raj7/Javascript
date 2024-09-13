@@ -53,11 +53,40 @@ const user = [
 
 // console.log(user[0].email);
 
-console.log(Object.keys(YTuser));
-console.log(Object.values(YTuser));
-console.log(Object.entries(YTuser));
+// console.log(Object.keys(YTuser));
+// console.log(Object.values(YTuser));
+// console.log(Object.entries(YTuser));
 
 
-console.log(YTuser.hasOwnProperty('isLoggedIn'));
+// console.log(YTuser.hasOwnProperty('isLoggedIn'));
 
-console.log(YTuser.hasOwnProperty('isLogged'));
+// console.log(YTuser.hasOwnProperty('isLogged'));
+
+// ++++ DESTRUCTURE ++++ //
+
+const course = {
+    courseName: "Javascript",
+    coursePrice: 5999,
+    courseInstructor: "Atul Raj"
+}
+
+// to print courseName 3 times, we have to type: `course.courseName` 3 times
+// which is messy.
+
+const {courseName} = course
+const {courseName: Name} = course
+
+console.log(courseName);
+console.log(Name);
+
+// Line 76 & 77 both works same way except 77 can be customised to give manual names
+// {} -> is used to destructure. Ex -> Line 77 & 76
+
+
+// ++++ JSON & APIs ++++ //
+
+// {
+//     "name": "Atul Raj",
+//     "age": 22,
+//     "hobby": "Musicophile"
+// }
