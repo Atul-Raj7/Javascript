@@ -1,5 +1,7 @@
 // for of
 
+// iterable such as Arrays, Strings, Maps, Node Lists, and more
+
 // ["","",""]
 // [{},{},{}]
 
